@@ -14,7 +14,7 @@ use function AlibabaCloud\Client\value;
 class Login extends Controller
 {
     protected $appid = "wxfef945a30f78c17c";
-    protected $appsecret = "f958096de1a2e1d7431a45453431f054";
+    protected $appsecret = "";
 
     /**
      *  获取用户openid

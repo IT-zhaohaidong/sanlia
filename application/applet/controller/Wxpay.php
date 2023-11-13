@@ -17,7 +17,7 @@ class Wxpay extends Controller
     {
         parent::__construct($request);
         $this->config ['appid'] = "wxfef945a30f78c17c"; // 微信公众号身份的唯一标识
-        $this->config ['appsecret'] = "f958096de1a2e1d7431a45453431f054"; // appsecret
+        $this->config ['appsecret'] = ""; // appsecret
         $this->config ['mchid'] = "1642723027"; // 商户ID
         $this->config ['key'] = "Yxc15943579579Yxc15943579579Yxc1"; // 商户支付密钥Key
         $this->config ['sslCert'] = dirname(dirname(dirname(dirname(__FILE__)))) . '/public/apiclient_cert.pem'; // 商户支付证书

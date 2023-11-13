@@ -8,9 +8,9 @@ use think\Db;
 
 class Oss
 {
-    private $accessKeyId = "LTAI5tAxWs8oqKfdQnY6tYZs";
-    private $accessKeySecret = "WREttlDj3Z4hAXApvbGnxSNG6D5e9t";
-    private $endpoint = "https://oss-cn-hangzhou.aliyuncs.com";
+    private $accessKeyId = "";
+    private $accessKeySecret = "";
+    private $endpoint = "";
     // 填写Bucket名称，例如examplebucket。
     private $bucket = "ch-manghe";
 
